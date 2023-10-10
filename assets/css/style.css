@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: pfdisp;
+    src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+/* ====================================================================
+                                RESET
+=====================================================================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ====================================================================
+                                HEADER
+=====================================================================*/
+
+
+body {
+    background-color: #707070;
+}
+
+section {
+    background-color: #EDF0E2;
+    width: 90%;
+    margin: 9% auto;
+    height: 70vh;
+    overflow: hidden;
+}
+
+
+
+
+img {
+    position: absolute;
+    width: 740px;
+    top: 20%;
+    right: 5%;
+}
+
+
+div {
+    position: absolute;
+    top: 33%;
+    left: 15%;
+}
+
+h1 {
+    max-width: 300px;
+    font-size: 2rem;
+    font-family: pfdisp;
+    font-weight: 600;
+}
+
+p {
+    max-width: 400px;
+    padding-block: 1rem;
+    font-size: 1rem;
+    font-family: poppins;
+}
+
+
+a {
+    margin: 1rem auto;
+    display: inline-block;
+    padding: 1rem 5rem;
+    background-color: #FFAA36;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: poppins;
+    border: 3px solid #707070;
+}
+
+
+h1 span {
+    font-size: 4rem;
+}
